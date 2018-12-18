@@ -86,7 +86,7 @@ class ImageViewController: NSViewController {
         btnRectangle.state = NSControl.StateValue.off
         btnCercle.state = NSControl.StateValue.off
     }
-    
+   
     
     //FIN ACTIONS
     override func viewDidLoad() {

@@ -100,7 +100,7 @@
                             </menuItem>
                             <menuItem title="Save…" keyEquivalent="s" id="pxx-59-PXV">
                                 <connections>
-                                    <action selector="saveDocument:" target="-1" id="teZ-XB-qJY"/>
+                                    <action selector="saveScreen:" target="g0P-vU-sM0" id="9Ts-gX-Lrs"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Save As…" keyEquivalent="S" id="Bw7-FT-i3A">
@@ -772,7 +772,7 @@
                     </textField>
                     <colorWell misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRZ-6t-KqA">
                         <rect key="frame" x="108" y="168" width="61" height="23"/>
-                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="color" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <action selector="changerCouleurTrait:" target="g0P-vU-sM0" id="ZG7-wL-Nnw"/>
                         </connections>
@@ -782,18 +782,11 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="61" id="FKm-zy-CsK"/>
                         </constraints>
-                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="color" name="controlColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <action selector="changerCouleurRemplissage:" target="g0P-vU-sM0" id="9Jb-ZB-oui"/>
                         </connections>
                     </colorWell>
-                    <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-Ak-NHd">
-                        <rect key="frame" x="90" y="119" width="99" height="18"/>
-                        <buttonCell key="cell" type="radio" title="Remplissage" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="yk4-0d-ZIe">
-                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                    </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DL5-8F-gxM">
                         <rect key="frame" x="102" y="303" width="72" height="32"/>
                         <constraints>
@@ -813,12 +806,22 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="60" id="ehW-dy-dot"/>
                         </constraints>
-                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="cercle" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RYO-gM-Xg4">
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="cercle" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RYO-gM-Xg4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
                             <action selector="dessinerCercle:" target="g0P-vU-sM0" id="0dj-bm-9Mk"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-Ak-NHd">
+                        <rect key="frame" x="86" y="120" width="105" height="32"/>
+                        <buttonCell key="cell" type="push" title="Remplissage" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" inset="2" id="yk4-0d-ZIe">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="remplissage:" target="g0P-vU-sM0" id="wrB-ZU-r0Q"/>
                         </connections>
                     </button>
                 </subviews>
