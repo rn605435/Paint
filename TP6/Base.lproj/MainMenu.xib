@@ -746,7 +746,7 @@
                         <constraints>
                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="ofk-4X-feM"/>
                         </constraints>
-                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="icons8-triangle-100" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="unb-Mh-mBA">
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="triangle" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="unb-Mh-mBA">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -799,7 +799,7 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="60" id="e2t-Fs-M9n"/>
                         </constraints>
-                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="icons8-image-entiÃ¨re-100" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="gWo-dE-ngu">
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="square" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="gWo-dE-ngu">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -813,7 +813,7 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="60" id="ehW-dy-dot"/>
                         </constraints>
-                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="icons8-cercle-non-cochÃ©-100" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RYO-gM-Xg4">
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="cercle" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RYO-gM-Xg4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -849,8 +849,8 @@
         </window>
     </objects>
     <resources>
-        <image name="icons8-cercle-non-cochÃ©-100" width="75" height="75"/>
-        <image name="icons8-image-entiÃ¨re-100" width="75" height="75"/>
-        <image name="icons8-triangle-100" width="75" height="75"/>
+        <image name="cercle" width="75" height="75"/>
+        <image name="square" width="75" height="75"/>
+        <image name="triangle" width="75" height="75"/>
     </resources>
 </document>
